@@ -9,7 +9,7 @@
       </div>
       <div class="mt-8 text-center align-bottom h-auto">
         <button
-          class="rounded-xl px-4 py-2 focus:outline-none bg-green-500 hover:bg-green-700 text-white"
+          class="btn-success"
           @click="onSubmit"
         >Odeslat</button>
       </div>

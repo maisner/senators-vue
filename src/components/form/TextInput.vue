@@ -3,8 +3,8 @@
     <input
       :type="getType()"
       :name="name"
-      class="rounded-md bg-gray-200 focus:bg-gray-100 h-8 p-6 focus:outline-none ring-2 ring-transparent"
-      :class="{'ring-red-500': hasError()}"
+      class="input"
+      :class="{'input-error': hasError()}"
       :placeholder="placeholder"
       v-model="value"
       @change="validate()"
